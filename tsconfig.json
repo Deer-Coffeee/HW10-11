@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["ES6"],
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+
+}
